@@ -190,9 +190,15 @@ footer{
 
 @media (max-width: 600px) {
     
-    body{
-        max-width: 600px;
-    }
+   body{
+    width: 600px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   }
     .navigation_list{
         display: flex;
         flex-direction: column;
@@ -223,6 +229,11 @@ footer{
         justify-content: space-between;
         gap: 0.5em;
         margin-top: 1em;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
 }
