@@ -1,6 +1,7 @@
 body{
     background-color: #F8D6B1;
-    font-family: Lato;
+    font-family: Montserrat
+    ;
     margin: 0px;
    
 }
@@ -48,23 +49,26 @@ main{
     
 }
 .main_image{
-    background-color: #875a33;
+    background-color: #a25536;
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
+#komespiedavam{
+    text-align: center;
+}
 .main_wrap{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 .main_blocks{
     display: flex;
     flex-direction: column;
-    max-width: 700px;
-    justify-content: center;
+    max-width: 500px;
+    
     
     
 }
@@ -77,15 +81,15 @@ main{
     display: flex;
     margin: 0px;
     padding: 0px;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5em;
+   margin-top: 1em;
+    gap: 1em;
 }
 
 .block_image_wrap{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 } 
 
 
@@ -187,6 +191,21 @@ footer{
     gap: 5em;
    
 }
+.Noteikumi{
+    text-align: center;
+}
+
+
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
 @media (max-width: 600px) {
     
@@ -234,6 +253,11 @@ footer{
         display: flex;
         flex-direction: column;
         width: 100%;
+    }
+    .map_editor{
+        max-width: 500px;
+        max-height:500px;
+
     }
 
 }
