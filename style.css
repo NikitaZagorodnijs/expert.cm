@@ -240,12 +240,42 @@ footer{
     text-align: center;
 }
 
-
-.map{
+#Kur{
+    text-align: center;
+    margin-bottom: -40px;
+}
+.where{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+}
+.map_wrap{
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    
+}
+
+.parmums-image{
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Par-mums-images/shop.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parmums-text{
+    padding: 2em;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+.color_text{
+    color: #a25536;
 }
 
 
