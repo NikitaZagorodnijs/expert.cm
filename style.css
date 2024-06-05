@@ -49,20 +49,28 @@ main{
     
 }
 .main_image{
-    background-color: #a25536;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/main-image.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     
 }
+
+
+
 #komespiedavam{
     text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
 }
 .main_wrap{
     display: flex;
     justify-content: center;
     align-items: start;
+    color: white;
+    text-shadow: 2px 2px 5px black;
 }
 .main_blocks{
     display: flex;
@@ -74,6 +82,7 @@ main{
 }
 .coffee_machines{
     max-height: 100px;
+    
     
 }
 
@@ -251,8 +260,9 @@ footer{
     margin-top: 40px;
 }
 .map_wrap{
-    display: flex;
-    height: 300px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 900px;
     flex-direction: row;
     
 }
@@ -334,6 +344,9 @@ footer{
         max-width: 500px;
         max-height:500px;
 
+    }
+    .map_wrap{
+        max-width: 600px;
     }
 
 }
